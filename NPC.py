@@ -19,5 +19,8 @@ class NPC:
                 return((self.x,self.y))
 
         #call this method to kill an object                                          
-        def die(self,matrix):
-                self.alive = False
+        def die(self):
+            self.alive = False
+    
+        def act(self):
+            pass
